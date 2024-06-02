@@ -171,4 +171,5 @@ if (((p.y-PENRADIUS) > BOXSIZE) && ((p.y+PENRADIUS) < tft.height())) {
 ![alt text](https://github.com/kevinhardiansites/arduinoproject3/blob/main/Daftar%20Gambar/keadaan%20hidup.png?raw=true)
 2. Pilihkan warna kuas yang diinginkan, kemudian gambarlah objek apapun pada LCD
 3. Tekan Pushbutton untuk mereset LCD
+
 https://github.com/kevinhardiansites/arduinoproject3/assets/141954008/95bda800-a582-4ad7-b9d1-1fc8dd395209
