@@ -6,6 +6,10 @@ Membuat Drawing Board Interaktif dengan LCD Touchscreen ILI9341
 ## Tujuan 
 Proyek ini bertujuan untuk menciptakan sebuah papan gambar digital yang interaktif menggunakan layar LCD touchscreen ILI9341 dan pengontrol sentuh kapasitif FT6206. Dengan proyek ini, pengguna dapat menggambar di layar menggunakan jari mereka dan memilih berbagai warna untuk menggambar.
 
+## Fitur
+1. Pilihan Warna: Terdapat enam pilihan warna yang dapat dipilih oleh pengguna untuk menggambar.
+2. Menggambar dengan Sentuhan: Pengguna dapat menggambar di layar dengan jari. (Pada simulasi menggunakan kursor)
+
 ## Alat dan Bahan
 1. Arduino Uno
 2. Modul LCD Touchscreen ILI9341
@@ -173,3 +177,11 @@ if (((p.y-PENRADIUS) > BOXSIZE) && ((p.y+PENRADIUS) < tft.height())) {
 3. Tekan Pushbutton untuk mereset LCD
 
 https://github.com/kevinhardiansites/arduinoproject3/assets/141954008/95bda800-a582-4ad7-b9d1-1fc8dd395209
+
+## Kesimpulan
+LCD berhasil digunakan sesuai dengan program yang sudah ditulis dan Pushbutton berfungsi dengan baik. 
+
+## Saran Pengembangan
+1. Menambahkan kemampuan untuk mengubah ukuran kuas untuk menggambar dengan detail yang lebih halus atau dengan area yang lebih besar.
+2. Menambahkan fitur untuk menyimpan gambar yang digambar dan memuatnya kembali untuk diedit lebih lanjut.
+3. Menambahkan opsi warna lainnya
