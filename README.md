@@ -165,3 +165,7 @@ if (((p.y-PENRADIUS) > BOXSIZE) && ((p.y+PENRADIUS) < tft.height())) {
   }
 }
 ```
+
+## Cara Kerja Program
+1. Saat simulasi dijalankan, LCD akan memunculkan baris kotak warna yang dapat dipilih sebagai warna kuas
+![alt text](https://github.com/kevinhardiansites/arduinoproject3/blob/main/Daftar%20Gambar/keadaan%20hidup.png?raw=true)
