@@ -159,7 +159,8 @@ Jika warna saat ini berbeda dari warna sebelumnya, mengisi kembali kotak warna s
 ```
 
 Jika titik sentuh berada di bawah kotak warna dan masih dalam batas layar, menggambar lingkaran kecil dengan warna saat ini (currentcolor) di posisi yang disentuh.
-```cpp  if (((p.y-PENRADIUS) > BOXSIZE) && ((p.y+PENRADIUS) < tft.height())) {
+```cpp
+if (((p.y-PENRADIUS) > BOXSIZE) && ((p.y+PENRADIUS) < tft.height())) {
     tft.fillCircle(p.x, p.y, PENRADIUS, currentcolor);
   }
 }
