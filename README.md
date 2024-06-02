@@ -13,3 +13,15 @@ Proyek ini bertujuan untuk menciptakan sebuah papan gambar digital yang interakt
 
 ## Gambar Rangkaian
 ![alt text](https://github.com/kevinhardiansites/arduinoproject3/blob/main/Daftar%20Gambar/Gambar%20Rangkaian.png?raw=true)
+
+Link Simulasi: https://wokwi.com/projects/399602176504280065
+
+## Penjelasan Program
+LIbrary yang digunakan 
+```cpp
+#include <Adafruit_GFX.h>    
+#include <SPI.h>       
+#include <Adafruit_ILI9341.h>
+#include <Wire.h>      
+#include <Adafruit_FT6206.h>
+```
