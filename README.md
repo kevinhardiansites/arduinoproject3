@@ -179,7 +179,7 @@ if (((p.y-PENRADIUS) > BOXSIZE) && ((p.y+PENRADIUS) < tft.height())) {
 https://github.com/kevinhardiansites/arduinoproject3/assets/141954008/95bda800-a582-4ad7-b9d1-1fc8dd395209
 
 ## Kesimpulan
-LCD berhasil digunakan sesuai dengan program yang sudah ditulis dan Pushbutton berfungsi dengan baik. 
+LCD berhasil digunakan sesuai dengan program yang sudah ditulis dan Pushbutton berfungsi dengan baik.
 
 ## Saran Pengembangan
 1. Menambahkan kemampuan untuk mengubah ukuran kuas untuk menggambar dengan detail yang lebih halus atau dengan area yang lebih besar.
